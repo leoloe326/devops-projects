@@ -5,6 +5,6 @@ package com.demo.my_project;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Welcome to DevOps world!");
+        System.out.println("Welcome to DevOps world! This is demo app for Jenkins CI");
     }
 }
