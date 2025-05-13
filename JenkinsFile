@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent {label 'maven-build-server'}
 
     stages {
         stage ('Compile Stage') {
-
+            
             steps {
                 withMaven(maven : 'maven') {
                     sh 'mvn clean compile'
